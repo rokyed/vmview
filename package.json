@@ -1,0 +1,19 @@
+{
+  "name": "vmview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "electron": "^10.1.5"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^2.3.2"
+  }
+}
