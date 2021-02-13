@@ -3,7 +3,14 @@
 Proxmox's ultimate client.
 
 
+#### Themes:
+
+none
+
+PVEDiscordDark-2021.01.10
+
 #### ENV:
-```javascript
-THEME = ['none', 'PVEDiscordDark']
+```
+VMVIEW_URL="server url"
+THEME="PVEDiscordDark-2021.01.10"
 ```
