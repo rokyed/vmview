@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --config ./webpack.configcss.js && webpack --config ./webpack.configjs.js && ./start.sh",
+    "start": "webpack --config ./webpack.configcss.js && webpack --config ./webpack.configjs.js && electron index.js",
     "build": "webpack --config ./webpack.configcss.js && webpack --config ./webpack.configjs.js",
     "bcss": "webpack --config ./webpack.configcss.js",
     "bjs": "webpack --config ./webpack.configjs.js"
-
   },
   "author": "",
   "license": "ISC",
